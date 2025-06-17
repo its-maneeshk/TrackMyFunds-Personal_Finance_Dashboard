@@ -1,0 +1,24 @@
+src/
+├── assets/
+├── components/
+│   ├── Navbar.jsx
+│   ├── Sidebar.jsx
+│   ├── TransactionForm.jsx
+│   ├── TransactionList.jsx
+│   ├── DashboardCards.jsx
+│   ├── Charts/
+│   │   ├── ExpensePieChart.jsx
+│   │   └── IncomeExpenseLineChart.jsx
+├── pages/
+│   ├── Login.jsx
+│   ├── Register.jsx
+│   ├── Dashboard.jsx
+│   ├── AddTransaction.jsx
+│   ├── UploadCSV.jsx
+│   ├── Goals.jsx
+├── context/
+│   └── AuthContext.jsx
+├── services/
+│   └── api.js (Axios instance)
+├── App.jsx
+└── main.jsx
