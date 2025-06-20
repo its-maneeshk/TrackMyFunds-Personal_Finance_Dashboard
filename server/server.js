@@ -14,7 +14,10 @@ console.log("JWT_SECRET is:", process.env.JWT_SECRET);
 const app = express();
 
 app.use(cors({
-  origin: "http://localhost:5173",
+  origin: [
+      "https://track-my-funds-personal-finance-das.vercel.app",
+      "http://localhost:5173"
+    ],
   credentials: true,               // <-- allow cookies, auth headers, etc.
 }));
 
