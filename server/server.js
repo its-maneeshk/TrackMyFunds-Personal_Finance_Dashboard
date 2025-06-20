@@ -24,6 +24,12 @@ app.use(express.json());
 app.use("/api/auth", authRoutes);
 app.use("/api/transactions", transactionRoutes);
 app.use("/api/goals", goalRoutes);
+app.get("/", (req,res) => {
+  res.send({
+    activeStatus:true,
+    error:false,
+  })
+})
 
 const PORT = process.env.PORT || 5000;
 
