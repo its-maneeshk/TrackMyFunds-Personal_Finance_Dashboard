@@ -1,32 +1,53 @@
-# TrackMyFunds - Personal Finance Dashboard 🏨
+# TrackMyFunds 💰
 
-**TrackMyFunds** short project description about the project.
+**TrackMyFunds** is a full-stack personal finance dashboard that helps users manage their income, expenses, savings goals, and transactions securely. Built using **React**, **Node.js**, **Express**, **MongoDB**, and **TailwindCSS**, it provides an intuitive and modern interface for smart money tracking.
 
-## Features 🪶
+---
 
-| **Module**                     | **Description**                                                                                          | **Module**                   | **Description**                                 |
-| ------------------------------ | -------------------------------------------------------------------------------------------------------- | ---------------------------- | ----------------------------------------------- |
-| **Authentication**             | Handles user login, signup, password reset, and logout operations.                                       | **Guest Management**         | Manages guest registration and information.     |
-| **Database Connectivity**      | Establishes and manages the connection between the application and the MySQL database.                   | **Admin Operations**         | Provides administrative functionalities.        |
-| **User Option Handling**       | Manages different options available to users (admin and customer).                                       | **Error Handling**           | Ensures stable application performance.         |
-| **Junction and Navigation**    | Controls navigation between different sections of the system.                                            | **Welcome and Greeting**     | Displays welcome messages and guides users.     |
-| **Main Menu**                  | Provides the main interface for user interaction.                                                        | **Logout**                   | Safely logs out users from the system.          |
+## Features ⚡
 
-## User Interface
-The application features a command-line interface (CLI) that guides users through various options and operations, ensuring ease of use and accessibility for all users.
+| **Module**                    | **Description**                                                                                         | **Module**                    | **Description**                                 |
+|---------------------------------|---------------------------------------------------------------------------------------------------------|--------------------------------|-------------------------------------------------|
+| **Authentication**             | Handles user signup, login, JWT-based authentication, and logout.                                       | **Protected Routes**           | Secures routes so only logged-in users can access them. |
+| **Transaction Management**      | Allows adding, editing, deleting, and listing income and expense transactions.                         | **Savings Goals**              | Set and track savings goals with progress bars. |
+| **CSV Upload & Parsing**        | Upload and auto-parse bank statement CSV files.                                                        | **Data Visualization**         | Visual charts for income/expenses breakdown.    |
+| **Responsive UI**               | Built with TailwindCSS for clean, mobile-friendly design.                                              | **Profile Page**               | Displays user details and avatar.               |
+| **Error Handling**              | Gracefully handles client/server errors with user-friendly messages.                                   | **Export Options** (future)    | Planned feature for CSV/PDF exports.            |
+| **API-ready Design** (future)   | Planned integration with banking APIs / UPI (e.g. Plaid, FinBox).                                      | **Smart Alerts** (future)      | Planned smart spending alerts.                  |
 
-# Demo Images 
+---
 
-Here are some screenshots demonstrating the key functionalities of **CalculatorApp**:
+## Demo Images 🌟
 
-1. **[DEMO IMAGES]**:
-   ![IMAGE DESCRIPTION](Image Parmanent link)
-   
+> Replace these links with your actual image URLs (e.g., GitHub, Cloudinary)
+
+
+| **Interface**         | **Preview** |
+|-----------------------|-------------|
+| **Login Page** | ![Missed to add Login Demo Image](https://forget_to_add_image.png) | |
+| **Registration Page** | ![Missed to add reg. Demo Image](https://forget_to_add_image.png) | |
+| **Dashboard**          | <img src="https://github.com/its-maneeshk/.assets/blob/26c5f31d92646ab403e03dabb28f51cfe21a35ad/TrackMyFunds-Personal_Finance_Dashboard/TrackMyFunds-Personal_Finance_Dashboard-Home.png" width="800px"> |
+| **Add Transaction**    | <img src="https://github.com/its-maneeshk/.assets/blob/26c5f31d92646ab403e03dabb28f51cfe21a35ad/TrackMyFunds-Personal_Finance_Dashboard/TrackMyFunds-Personal_Finance_Dashboard-addTrxn.png" width="800px"> |
+| **Savings Goals**      | <img src="https://github.com/its-maneeshk/.assets/blob/26c5f31d92646ab403e03dabb28f51cfe21a35ad/TrackMyFunds-Personal_Finance_Dashboard/TrackMyFunds-Personal_Finance_Dashboard-savingGoal.png" width="800px"> |
+| **Profile**            | <img src="https://github.com/its-maneeshk/.assets/blob/26c5f31d92646ab403e03dabb28f51cfe21a35ad/TrackMyFunds-Personal_Finance_Dashboard/TrackMyFunds-Personal_Finance_Dashboard-profile.png" width="800px"> |
+
+
+
+---
+
+## Tech Stack 🛠
+
+- **Frontend**: React.js, React Router, TailwindCSS
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB (Mongoose)
+- **Authentication**: JWT (JSON Web Tokens), bcrypt for password hashing
+- **Deployment**: Vercel (frontend), Render/Heroku/other (backend)
+
+---
 
 
 ## Contributing 🛂
-Contributions are welcome! If you would like to contribute to CalculatorApp, please fork the repository, create a new branch, and submit a pull request. I encourage suggestions for new features, bug fixes, and general improvements.
-
+Contributions are welcome! If you would like to contribute to this, please fork the repository, create a new branch, and submit a pull request. I encourage suggestions for new features, improvements, or bug fixes.
 
 ---
 
@@ -37,7 +58,7 @@ Contributions are welcome! If you would like to contribute to CalculatorApp, ple
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Code-Java-blue?style=flat-square&logo=java" alt="Java Badge">
+  <img src="https://img.shields.io/badge/Code-JavaScript-yellow?style=flat-square&logo=javascript" alt="JavaScript Badge">
   <img src="https://img.shields.io/badge/Tool-Git-orange?style=flat-square&logo=git" alt="Git Badge">
   <img src="https://img.shields.io/badge/Project-Open%20Source-brightgreen?style=flat-square" alt="Open Source Badge">
 </p>
@@ -45,5 +66,3 @@ Contributions are welcome! If you would like to contribute to CalculatorApp, ple
 <p align="center">
   🚀 Follow my work at <a href="https://github.com/its-maneeshk" target="_blank">GitHub</a> and let's build something amazing together!
 </p>
-
-
