@@ -65,7 +65,7 @@ export default function Register() {
                     name="name"
                     id="name"
                     type="text"
-                    placeholder="Manish Kumar Patel"
+                    placeholder="eg: Manish Patel"
                     value={form.name}
                     onChange={handleChange}
                     required
@@ -83,7 +83,7 @@ export default function Register() {
                     name="email"
                     id="email"
                     type="email"
-                    placeholder="example@gmail.com"
+                    placeholder="yourmail@domain.com"
                     value={form.email}
                     onChange={handleChange}
                     required
