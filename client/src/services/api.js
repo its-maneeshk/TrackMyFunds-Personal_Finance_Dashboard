@@ -1,7 +1,8 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:5000/api', // change this if your backend URL is different
+  // baseURL: 'http://localhost:5000/api', 
+  baseURL: 'https://track-my-funds-personal-finance-das-rose.vercel.app/', 
   withCredentials: true, // if using cookies for auth
 });
 
