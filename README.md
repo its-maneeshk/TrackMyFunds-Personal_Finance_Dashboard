@@ -1,6 +1,6 @@
-# [PROJECT NAME] 🏨
+# TrackMyFunds - Personal Finance Dashboard 🏨
 
-**[PROJECT NAME]** short project description about the project.
+**TrackMyFunds** short project description about the project.
 
 ## Features 🪶
 
