@@ -19,7 +19,7 @@
 
 ## Demo Images 🌟
 
-> Replace these links with your actual image URLs (e.g., GitHub, Cloudinary)
+> Demo images to demonstrate how project actually looks
 
 
 | **Interface**         | **Preview** |
